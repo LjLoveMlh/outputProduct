@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "self-index-search-bar": "/components/selfIndexSearchBar"
+  }
+}

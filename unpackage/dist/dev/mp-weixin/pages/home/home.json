@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "home-top-search": "/pages/home/components/homeTopSearch",
+    "home-banner": "/pages/home/components/homeBanner",
+    "task-item": "/components/taskItem",
+    "you-scroll": "/components/you-scroll",
+    "sl-filter": "/components/sl-filter/sl-filter",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

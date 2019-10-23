@@ -1,0 +1,138 @@
+.ljBottomButton {
+  left: 0;
+  right: 0;
+  font-size: 28rpx;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+.ljBottomButton .ljButtHelp {
+  width: 100%;
+  height: 100%;
+}
+.topTitle {
+  font-size: 55rpx;
+  line-height: 60rpx;
+  color: black;
+  font-weight: bold;
+}
+.topTt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  padding: 20rpx 30rpx;
+}
+.topTitle-icon {
+  font-size: 50rpx;
+  line-height: 60rpx;
+  color: #0081FF;
+  margin-left: 30rpx;
+}
+.topTip {
+  font-size: 30rpx;
+  color: #999999;
+  padding: 20rpx 30rpx;
+  letter-spacing: 3rpx;
+  background-color: white;
+}
+.formGroup {
+  height: auto;
+  margin: 40rpx;
+  background-color: white;
+  padding: 0 30rpx;
+  border-radius: 20rpx;
+  -webkit-box-shadow: 0rpx 20rpx 20rpx #d3d3d3;
+          box-shadow: 0rpx 20rpx 20rpx #d3d3d3;
+}
+.formItem {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 110rpx;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #EAEAEA;
+}
+.formItem-name {
+  width: 23%;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  /* border: 1rpx solid red; */
+}
+.textJustify {
+  text-align: justify;
+}
+.textJustify::after {
+  width: 100%;
+  display: inline-block;
+  content: '';
+}
+.formItem-input {
+  margin-left: 10%;
+  width: 67%;
+  height: 50rpx;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  /* border: 1rpx solid blue; */
+}
+.formItem-ads {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #EAEAEA;
+}
+.formItem-adsName {
+  width: 23%;
+  height: 50rpx;
+  font-size: 30rpx;
+}
+.formItem-adsRight {
+  width: 67%;
+  margin-left: 10%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.formItem-adsIcon {
+  line-height: 50rpx;
+  color: #0081ff;
+  text-align: center;
+  font-size: 30rpx;
+  margin-right: 10rpx;
+}
+.formItem-address {
+  font-size: 30rpx;
+  line-height: 50rpx;
+}
+.formImage-name {
+  width: 23%;
+  font-size: 30rpx;
+}
+.formImageUp {
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #EAEAEA;
+}
+.formImage-margin {
+  margin-left: 10%;
+}
+.formImageTip {
+  font-size: 17rpx;
+  color: red;
+}
+.blankSpace {
+  height: 100rpx;
+}
+

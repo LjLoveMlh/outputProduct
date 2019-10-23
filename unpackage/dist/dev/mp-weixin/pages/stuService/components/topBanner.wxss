@@ -1,0 +1,25 @@
+.item-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 280rpx;
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #0081ff, #1cbbb4);
+  /* Opera 11.1 - 12.0 */
+  /* Firefox 3.6 - 15 */
+  background: -webkit-gradient(linear, left top, right top, from(#0081ff), to(#1cbbb4));
+  background: -o-linear-gradient(left, #0081ff, #1cbbb4);
+  background: linear-gradient(to right, #0081ff, #1cbbb4);
+}
+.top-name {
+  font-size: 50rpx;
+  font-weight: bolder;
+  text-align: center;
+  padding: 100rpx 0 0 0;
+}
+.top-search {
+  margin: 10rpx 0;
+}
+

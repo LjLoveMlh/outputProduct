@@ -1,0 +1,24 @@
+.ljimgHelp {
+  width: 96rpx;
+  height: 96rpx;
+  border: 1px solid #FFFFFF;
+}
+.ljimgHelp image {
+  width: 100%;
+  height: 100%;
+}
+.item-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 280rpx;
+}
+.top-name {
+  font-size: 50rpx;
+  font-weight: bolder;
+  text-align: center;
+  padding: 100rpx 0 0 0;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "h-time-picker": "/components/h-timePicker/h-timePicker"
+  }
+}

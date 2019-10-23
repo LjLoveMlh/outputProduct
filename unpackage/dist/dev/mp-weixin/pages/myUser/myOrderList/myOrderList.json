@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "task-item": "/components/taskItem",
+    "you-scroll": "/components/you-scroll",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home/taksDetail/taksDetail",
+    "pages/login/login",
+    "pages/myBusiness/myBusiness",
+    "pages/public/infoBindBusiness/infoBindBusiness",
+    "pages/public/feedbackPage/feedbackPage",
+    "pages/public/infoBind/infoBind",
+    "pages/public/pushTask/pushTask",
+    "pages/myUser/myUser",
+    "pages/stuService/stuService",
+    "pages/myUser/myform/myform",
+    "pages/searchPage/searchPage",
+    "pages/public/userInfo/userInfo",
+    "pages/myUser/myOrderList/myOrderList",
+    "pages/myUser/myPush/myPush",
+    "pages/public/acceptPeople/acceptPeople",
+    "pages/public/uploadFeed/uploadFeed",
+    "pages/public/aboutUs/aboutUs"
+  ],
+  "subPackages": [],
+  "tabBar": {
+    "color": "#8A8A8A",
+    "selectedColor": "#0081ff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/work2.png",
+        "selectedIconPath": "static/work1.png",
+        "text": "兼职"
+      },
+      {
+        "pagePath": "pages/stuService/stuService",
+        "iconPath": "static/second2.png",
+        "selectedIconPath": "static/second1.png",
+        "text": "学生服务"
+      },
+      {
+        "pagePath": "pages/myBusiness/myBusiness",
+        "iconPath": "static/mine2.png",
+        "selectedIconPath": "static/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "为了您的更好体验，需要您的地理位置！"
+    }
+  },
+  "usingComponents": {
+    "home": "/pages/home/home",
+    "my-business": "/pages/myBusiness/myBusiness",
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap83.json"
+}

@@ -1,0 +1,60 @@
+.logoPosition {
+  position: relative;
+  width: 200rpx;
+  height: 200rpx;
+  z-index: 9999;
+}
+.logoPosition image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+.ljPosition {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  right: 15px;
+  margin: auto;
+}
+.landing {
+  height: 84rpx;
+  line-height: 84rpx;
+  border-radius: 44rpx;
+  font-size: 32rpx;
+}
+.login-btn {
+  padding: 10rpx 40rpx;
+}
+.login-input input {
+  background: #F2F5F6;
+  font-size: 28rpx;
+  width: 80%;
+  padding: 10rpx 25rpx;
+  height: 62rpx;
+  margin-left: 30rpx;
+  line-height: 62rpx;
+  border-radius: 8rpx;
+  color: #333333;
+}
+.login-input {
+  padding: 10rpx 20rpx;
+}
+.login-head {
+  font-size: 34rpx;
+  text-align: center;
+  padding: 25rpx 10rpx 55rpx 10rpx;
+}
+.login-card {
+  background: #fff;
+  border-radius: 12rpx;
+  padding: 10rpx 25rpx;
+  -webkit-box-shadow: 0 6rpx 18rpx rgba(0, 0, 0, 0.12);
+          box-shadow: 0 6rpx 18rpx rgba(0, 0, 0, 0.12);
+  position: relative;
+  margin-top: 50rpx;
+}
+.login-bg {
+  height: 560rpx;
+  padding: 25rpx;
+}
+

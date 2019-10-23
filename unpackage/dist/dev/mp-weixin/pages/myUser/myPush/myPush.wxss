@@ -1,0 +1,13 @@
+.swiper-box {
+  height: calc(100% - 40px);
+}
+.list-scroll-content {
+  height: 100%;
+}
+.LJstick {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 88;
+}
+
